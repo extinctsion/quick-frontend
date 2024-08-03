@@ -1,6 +1,20 @@
-# Quickurl
+# QuickURL - frontend
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.1.3.
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.1.0.
+
+## Prerequisites
+1. Node
+2. Any code editor
+
+## Install bun globally
+`npm i -g bun`
+
+## Angular installation
+
+To install latest version of Angular i.e v18, run:
+
+`npm install -g @angular/cli@latest`
+`npm i` or `bun i`
 
 ## Development server
 
