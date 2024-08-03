@@ -2,6 +2,20 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.1.0.
 
+## Prerequisites
+1. Node
+2. Any code editor
+
+## Install bun globally
+`npm i -g bun`
+
+## Angular installation
+
+To install latest version of Angular i.e v18, run:
+
+`npm install -g @angular/cli@latest`
+`npm i` or `bun i`
+
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
