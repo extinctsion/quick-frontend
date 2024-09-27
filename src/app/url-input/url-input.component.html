@@ -1,0 +1,10 @@
+<div>
+  <input type="text" [(ngModel)]="urlInput" placeholder="Enter URL" />
+  <button (click)="sendUrl()">Go</button>
+</div>
+
+<div *ngIf="responseUrl">
+  <p>
+    Quick URL: <a [href]="responseUrl" target="_blank">{{ responseUrl }}</a>
+  </p>
+</div>
