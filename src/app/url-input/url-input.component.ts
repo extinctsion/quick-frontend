@@ -33,12 +33,12 @@ export class UrlInputComponent {
   // }
   sendUrl() {
     if (this.urlInput) {
-      const apiUrl = '/api'; // Using the proxy endpoint
+      const apiUrl = 'http://65.0.122.230:8080/api'; // Using the proxy endpoint
 
       this.http
         .post<{
           quickURl: string;
-        }>(apiUrl, this.urlInput, { headers: { 'Content-Type': 'text/plain' } })
+        }>(apiUrl, this.urlInput)
         .subscribe(response => {
           console.log('API Response:', response); // Log the full response
           if (response.quickURl) {
